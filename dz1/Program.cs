@@ -8,7 +8,7 @@
 
 void CheckPalNum (int number, int number1, int number2, int number4, int number5)
 {
-    if (number > -100000 & number < 100000 & number < -9999 & number > 9999)
+    if (number < 100000 & number > 9999)
     {
         number1 = number / 10000;
         number2 = (number / 1000) % 10;
